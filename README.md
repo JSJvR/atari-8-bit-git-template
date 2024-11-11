@@ -31,10 +31,7 @@ Modify the `config` section of the `state.json` file.
 
 ## Limitations
 
-[Atari 8-bit Utils](https://github.com/JSJvR/atari-8-bit-utils) was a quick weekend project, so YMMV. The biggest current limitation id that directories aren't supported. Only files in the root folder will be converted to UTF-8 andf committed. 
-
-
-**Please retain everything below the line when copyping or forking this repo**
+[Atari 8-bit Utils](https://github.com/JSJvR/atari-8-bit-utils) was a quick weekend project, so YMMV. The biggest current limitation is that directories aren't supported. Only files in the root folder will be converted to UTF-8 and committed. 
 
 -----
 This project is automatically managed using [Atari 8-bit Utils](https://github.com/JSJvR/atari-8-bit-utils)
