@@ -1,0 +1,1 @@
+Place your ATR images here. If there are multiple files, one that is alphabetically the first will be used. You normally would not want to commit binary ATR files to git. If you do want to do that, remove the `*.atr` line from `.gitignore`
