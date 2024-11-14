@@ -1,3 +1,12 @@
 COMMIT.MSG
 state.json
-atr/*.atr
+
+###
+# Default ignores. Comment/uncomment as needed
+###
+
+# ATR images should normally not be committed. Leaving this commented out
+# for now to make it easier for me to manage Example.atr
+# *.atr
+# Memory state files
+*.sav

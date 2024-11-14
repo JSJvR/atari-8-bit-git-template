@@ -18,11 +18,12 @@ The video shows [this commit](https://github.com/JSJvR/atari-8-bit-git-template/
    1. An Atari emulator, e.g. [Altirra](https://www.virtualdub.org/altirra.html)
 ## Getting started
 
-1. Create a git repo based on this template by whichever method you prefer, e.g. forking the project or running `git init` and downloading the files from GitHub.
+1. Create a git repo based on this template by whichever method you prefer, e.g. running `git init` locally, downloading the files from GitHub and copying them into your local repo. Since you're not going to push to this template repo, cloning it is probably not the way to go, unless you change your origin remote or if you don't plan to ever push.
 1. Mount a disk image in the `atr` directory. Use the included `Example.atr` or replace it with your own.
 1. From your PC, in base directory of your repo, run `a8utils atr2git`.
-1. From your Atari, modify files on the mounted disk, and when you're ready to commit, modify `COMMIT.MSG` with your commit message. 
-1. Watch the magic happen. Two versions of each source file will be committed, the ATASCII original and a UTF-8 version that can easily be viewed on a modern computer. 
+1. From your Atari or emulator, modify files on the mounted disk. 
+1. When you're ready to commit, modify `COMMIT.MSG` with your commit message. 
+1. Watch the magic happen. Two versions of each source file will be committed: the ATASCII original and a UTF-8 version that can easily be viewed on a modern computer. 
 
 
 ## Customize
@@ -31,7 +32,14 @@ Modify the `config` section of the `state.json` file.
 
 ## Limitations
 
-[Atari 8-bit Utils](https://github.com/JSJvR/atari-8-bit-utils) was a quick weekend project, so YMMV. The biggest current limitation is that directories aren't supported. Only files in the root folder will be converted to UTF-8 and committed. 
+[Atari 8-bit Utils](https://github.com/JSJvR/atari-8-bit-utils) was a quick weekend project, so YMMV. 
+
+Some of the limitations:
+1. Only a single ATR image 
+1. Only supports updating from the ATR image to files, not the other way around
+1. Limted configurability, e.g. the directory structure is fixed
+
+Depending on free time and motivation, I might change some of this in the future.
 
 -----
 This project is automatically managed using [Atari 8-bit Utils](https://github.com/JSJvR/atari-8-bit-utils)
